@@ -33,6 +33,7 @@ body {
 /* Style the main content */
 main {
     padding: 36px;
+    margin: 0 auto;
 }
 
 .form {
@@ -40,7 +41,7 @@ main {
     grid-template-rows: repeat(3, 45px);
     gap: 17px;
     max-width: 575px;
-    margin: 0 auto;
+    margin: 0 auto 17px;
 }
 
 .form--input {
@@ -57,4 +58,14 @@ main {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.meme--image {
+    display: flex;
+    justify-content: center;
+}
+
+.meme--image > img {
+    max-width: 100%;
+    border-radius: 3px;
 }
