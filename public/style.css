@@ -29,3 +29,32 @@ body {
     line-height: 24px;
     letter-spacing: -0.03em;
 }
+
+/* Style the main content */
+main {
+    padding: 36px;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: repeat(3, 45px);
+    gap: 17px;
+    max-width: 575px;
+    margin: 0 auto;
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form--button {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
