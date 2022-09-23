@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.navbar--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.navbar--title {
+    font-size: 1.29rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+}
