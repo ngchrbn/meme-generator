@@ -61,8 +61,9 @@ main {
 }
 
 .meme--image {
-    display: flex;
-    justify-content: center;
+    display: table;
+    margin: 0 auto;
+    max-width: 575px;
 }
 
 .meme--image > img {
